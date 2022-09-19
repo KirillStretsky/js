@@ -1,0 +1,16 @@
+* {
+	font-family: "Museo", sans-serif;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+@import "blocks/global";
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/promo";
+@import "blocks/header";
+@import "_fonts";
