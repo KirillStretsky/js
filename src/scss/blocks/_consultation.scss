@@ -1,0 +1,19 @@
+.consultation {
+	background: url(../img/second_bg.png) center (center/cover) no-repeat;
+	min-height: 680px;
+	padding: 100px 0 100px 0;
+	// .consultation__descr
+
+	&__descr {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+		color: #ffffff;
+	}
+
+	&__title {
+		text-align: left;
+		color: white;
+		font-size: 36px;
+	}
+}
