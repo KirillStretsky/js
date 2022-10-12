@@ -7,15 +7,40 @@
 	.container {
 		max-width: 720px;
 	}
+
+	.carousel__inner {
+		.slick-dots {
+			display: none;
+		}
+	}
 }
 @media (max-width: 768px) {
 	.container {
 		max-width: 540px;
+	}
+	.catalog__content {
+		justify-content: center;
+	}
+	.reviews__name {
+		text-align: center;
+	}
+	.reviews__subheader {
+		text-align: center;
 	}
 }
 @media (max-width: 576px) {
 	.container {
 		width: 100%;
 		padding: 0 10px;
+	}
+	.benefits__icons {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.catalog__tabs {
+		flex-wrap: wrap;
+		:nth-child(2n) {
+			margin: 25px 0 25px 0;
+		}
 	}
 }

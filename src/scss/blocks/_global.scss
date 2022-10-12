@@ -1,5 +1,6 @@
 .button {
-	width: 153px;
+	max-width: 153px;
+	width: 100%;
 	height: 32px;
 	left: 0px;
 	top: 0px;
@@ -11,9 +12,10 @@
 	text-transform: uppercase;
 	color: #ffffff;
 	&:hover {
-		background: #920404;
+		background: red;
 		transition: 0.3s all;
 		cursor: pointer;
+		box-shadow: 2px 4px 10px 4px red;
 	}
 }
 

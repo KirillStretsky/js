@@ -6,7 +6,8 @@
 	// .header__logo
 
 	&__logo {
-		width: 250px;
+		max-width: 250px;
+		width: 100%;
 		img {
 			width: 100%;
 		}
