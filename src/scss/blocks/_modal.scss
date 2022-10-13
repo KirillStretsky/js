@@ -11,9 +11,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 382px;
-	height: 402px;
-	min-height: 400px;
+	// min-height: 400px;
 	width: 380px;
 	background: #f2f2f2;
 	padding: 38px 40px 40px 40px;
@@ -50,8 +48,14 @@
 	.feed-form_mt25 {
 		margin-top: 25px;
 	}
+	.error {
+		border: 1px solid red;
+	}
+	label.error {
+		border: none;
+		text-align: center;
+	}
 }
-
 #consulting,
 #order,
 #thank {
